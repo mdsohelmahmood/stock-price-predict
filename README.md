@@ -6,7 +6,6 @@
 	3. [Executing Program](#execution)
 3. [Author](#authors)
 4. [License](#license)
-6. [Screenshots](#screenshots)
 
 <a name="descripton"></a>
 ## Description
