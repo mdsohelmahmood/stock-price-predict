@@ -2,9 +2,8 @@
 1. [Introduction](#introduction)
 2. [Getting Started](#getting_started)
 	1. [Dependencies](#dependencies)
-	2. [Installing](#installation)
+	2. [Cloning](#cloning)
 	3. [Executing Program](#execution)
-	4. [Additional Material](#material)
 3. [Author](#authors)
 4. [License](#license)
 6. [Screenshots](#screenshots)
@@ -54,9 +53,13 @@ deployed in localhost. Two html files are used to take the user input and show t
 The final step is to deploy it on Heroku cloud platform for everybody to get access and use. The free account in Heroku provides 500 Mb of RAM which is not enough 
 for training the model using tensorflow on the fly. Tensorflow itself consumes 300+ Mb. Therefore later, I built and saved the model. Since the model has all the necessary information to predict the test data and no tensorflow is rquired, it is less than 500 Mb limit and can be easily deployed in Heroku.
 
-<a name="installation"></a>
+<a name="cloning"></a>
 ### Cloning
 To clone the git repository:
 ```
 git clone https://github.com/mdsohelmahmood/stock-price-predict
 
+<a name="authors"></a>
+## Author
+
+* [Md Sohel Mahmood](https://github.com/mdsohelmahmood)
