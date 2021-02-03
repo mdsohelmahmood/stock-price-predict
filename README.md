@@ -29,6 +29,12 @@ This project aims to develop a stock price prediction machine learning model and
 * Web App library: Flask
 * Financial data parsing library: Yfinance 
 
+<a name="cloning"></a>
+### Cloning
+To clone the git repository:
+```
+git clone https://github.com/mdsohelmahmood/stock-price-predict
+```
 
 <a name="execution"></a>
 ### Executing Program:
@@ -52,12 +58,7 @@ deployed in localhost. Two html files are used to take the user input and show t
 The final step is to deploy it on Heroku cloud platform for everybody to get access and use. The free account in Heroku provides 500 Mb of RAM which is not enough 
 for training the model using tensorflow on the fly. Tensorflow itself consumes 300+ Mb. Therefore later, I built and saved the model. Since the model has all the necessary information to predict the test data and no tensorflow is rquired, it is less than 500 Mb limit and can be easily deployed in Heroku.
 
-<a name="cloning"></a>
-### Cloning
-To clone the git repository:
-```
-git clone https://github.com/mdsohelmahmood/stock-price-predict
-```
+
 
 <a name="authors"></a>
 ## Author
