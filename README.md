@@ -38,7 +38,7 @@ This project aims to develop a stock price prediction machine learning model and
 
 First step is to craete an ML model for the time series data from historical stock price. Data extracted from Yahoo Finance using YFiance library.
 
-## stock = yf.Ticker("BTC-USD")
+#### stock = yf.Ticker("BTC-USD")
 
 The model is created with 30 days prediction input data to predict the days ahead. The will be user flexibility to define this number. This number will 
 point on how many days ahead in the future, the user wants to predict. The model is built with 3 layers of LSTM and dropout features to minimize the overfitting.
