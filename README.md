@@ -58,5 +58,5 @@ for training the model using tensorflow on the fly. Tensorflow itself consumes 3
 ### Cloning
 To clone the git repository:
 ```
-git clone https://github.com/canaveensetia/udacity-disaster-response-pipeline.git
+git clone https://github.com/mdsohelmahmood/stock-price-predict
 
