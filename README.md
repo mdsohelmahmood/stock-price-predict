@@ -48,12 +48,15 @@ point on how many days ahead in the future, the user wants to predict. The model
 Next step is to deploy the app in the local server using Flask and predict the stock price. For this, a seperate virtual environent is created and the app is 
 deployed in localhost. Two html files are used to take the user input and show the predicted output.
 
-    - To run ETL pipeline to clean data and store the processed data in the database
-        `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/disaster_response_db.db`
-    - To run the ML pipeline that loads data from DB, trains classifier and saves the classifier as a pickle file
-        `python models/train_classifier.py data/disaster_response_db.db models/classifier.pkl`
 
-2. Run the following command in the app's directory to run your web app.
-    `python run.py`
+### Part 3
 
-3. Go to http://0.0.0.0:3001/
+The final step is to deploy it on Heroku cloud platform for everybody to get access and use. The free account in Heroku provides 500 Mb of RAM which is not enough 
+for training the model using tensorflow on the fly. Tensorflow itself consumes 300+ Mb. Therefore later, I built and saved the model. Since the model has all the necessary information to predict the test data and no tensorflow is rquired, it is less than 500 Mb limit and can be easily deployed in Heroku.
+
+<a name="installation"></a>
+### Cloning
+To clone the git repository:
+```
+git clone https://github.com/canaveensetia/udacity-disaster-response-pipeline.git
+
