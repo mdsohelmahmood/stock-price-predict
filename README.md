@@ -1,5 +1,5 @@
 ## Table of Contents
-1. [Introduction]
+1. [Introduction](#introduction)
 2. [Getting Started](#getting_started)
 	1. [Dependencies](#dependencies)
 	2. [Installing](#installation)
