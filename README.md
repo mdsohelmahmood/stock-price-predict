@@ -58,8 +58,13 @@ for training the model using tensorflow on the fly. Tensorflow itself consumes 3
 To clone the git repository:
 ```
 git clone https://github.com/mdsohelmahmood/stock-price-predict
+```
 
 <a name="authors"></a>
 ## Author
 
 * [Md Sohel Mahmood](https://github.com/mdsohelmahmood)
+
+<a name="license"></a>
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
