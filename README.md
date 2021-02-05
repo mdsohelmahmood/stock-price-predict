@@ -7,8 +7,8 @@
 3. [Author](#authors)
 4. [License](#license)
 
-<a name="descripton"></a>
-## Description
+<a name="introduction"></a>
+## Introduction
 
 This project aims to develop a stock price prediction machine learning model and then deploy. There are three stages for this project
 
