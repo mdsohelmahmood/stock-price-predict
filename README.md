@@ -71,5 +71,6 @@ for training the model using tensorflow on the fly. Tensorflow itself consumes 3
 
 ## Screenshots
 ![Web App](https://github.com/mdsohelmahmood/stock-price-predict/blob/main/Latex/Figures/form.png)
+![Web App](https://github.com/mdsohelmahmood/stock-price-predict/blob/main/Latex/Figures/plot.png)
 
 
