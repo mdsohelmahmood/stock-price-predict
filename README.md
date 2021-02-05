@@ -25,7 +25,7 @@ This project aims to develop a stock price prediction machine learning model and
 * Python 3.6+
 * Visualization libraries: Matplotlib
 * Libraries for data and array: pandas and numpy
-* Machine learning libraries:Tensorflow, Keras, Sciki-Learn
+* Machine learning libraries:Tensorflow, Keras, Scikit-Learn
 * Web App library: Flask
 * Financial data parsing library: Yfinance 
 
