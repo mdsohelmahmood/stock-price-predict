@@ -69,5 +69,7 @@ for training the model using tensorflow on the fly. Tensorflow itself consumes 3
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## Screenshots
+![Web App](https://github.com/mdsohelmahmood/stock-price-predict/blob/main/Latex/Figures/form.png)
 
 
