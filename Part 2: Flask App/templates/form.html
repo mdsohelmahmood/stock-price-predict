@@ -1,0 +1,17 @@
+<h1 style="color: #5e9ca0;">This App predicts any STOCK price</h1>
+<h2 style="color: #2e6c80;">Please enter the following information:</h2>
+<ul style="list-style-type: square;">
+<li>Stock Name is the CAPITALIZED letters for the stock. AAPL fpr Apple, BTC-USD fro Bitcoin, TSLA for Tesla. <img src="https://html-online.com/editor/tiny4_9_11/plugins/emoticons/img/smiley-laughing.gif" alt="laughing" /></li>
+<li>Epochs is the number of passes of the entire training dataset, the <strong>machine learning</strong> algorithm has completed. More the epochs, better the accuracy. Epoch can be set at 50 for a good performance. <img src="https://html-online.com/editor/tiny4_9_11/plugins/emoticons/img/smiley-smile.gif" alt="smile" /></li>
+<li>Ahead is the number of days you want predict ahead of time. Less the number in "Ahead", higher the accuracy beacasue machine will have hard time predicting further into the future.&nbsp; <img src="https://html-online.com/editor/tiny4_9_11/plugins/emoticons/img/smiley-cool.gif" alt="cool" /></li>
+<li>Days is the number of days you want to use as the prediction dataset to predict the future. For example, you can use 30 days of data to predict the 31st day (ahead =1) or use the same data to predict 40th day (ahead=10) <img src="https://html-online.com/editor/tiny4_9_11/plugins/emoticons/img/smiley-sealed.gif" alt="sealed" /></li>
+</ul>
+<p>&nbsp;</p>
+
+<form action="/data" method = "POST">
+    <p>Stock Name<input type = "text" name = "Name" /></p>
+    <p>Epochs<input type = "number" name = "Epochs" /></p>
+    <p>Ahead<input type = "number" name = "Ahead" /></p>
+    <p>Days<input type = "number" name = "Days" /></p>
+    <p><input type = "submit" value = "Submit" /></p>
+</form>
